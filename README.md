@@ -1,5 +1,5 @@
 # Intro 
-This project manages a sandbox for [packerbeat](url)
+This project manages a sandbox for [packetbeat](http://packetbeat.com/getstarted)
 
 # Usage
 ```bash
@@ -9,7 +9,7 @@ This project manages a sandbox for [packerbeat](url)
 
 # Copyright and license
 
-Copyright [2014] [First Last Name]
+Copyright [2014] [Ronen Narkis]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
