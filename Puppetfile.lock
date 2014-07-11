@@ -1,0 +1,51 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    ispavailability/file_concat (0.1.0)
+    puppetlabs/apt (1.5.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/concat (1.1.0)
+      puppetlabs/stdlib (>= 4.0.0)
+    puppetlabs/stdlib (4.2.2)
+
+GIT
+  remote: git://github.com/camptocamp/puppet-archive.git
+  ref: master
+  sha: 84ea80c4fba52b75a7b20d45cbf01f5e6ee789c2
+  specs:
+    camptocamp/archive (0.1.0)
+
+GIT
+  remote: git://github.com/elasticsearch/puppet-logstash.git
+  ref: master
+  sha: e652401ebed5e83dd43b0d77f5a50398711369f0
+  specs:
+    elasticsearch/logstash (0.5.1)
+      ispavailability/file_concat (>= 0.1.0)
+      puppetlabs/stdlib (>= 3.2.0)
+
+GIT
+  remote: git://github.com/jfryman/puppet-nginx.git
+  ref: master
+  sha: 61b569ca02e11a86c1abf647490b5f98a4aee03c
+  specs:
+    jfryman/nginx (0.0.9)
+      puppetlabs/apt (>= 1.0.0)
+      puppetlabs/concat (>= 1.1.0)
+      puppetlabs/stdlib (>= 3.0.0)
+
+GIT
+  remote: git://github.com/mstrauss/puppet-editfile.git
+  ref: master
+  sha: 884efdc0997af667f24625e696630e6b1db5a952
+  specs:
+    mstrauss/editfile (0.0.1)
+
+DEPENDENCIES
+  camptocamp/archive (>= 0)
+  elasticsearch/logstash (>= 0)
+  jfryman/nginx (>= 0)
+  mstrauss/editfile (>= 0)
+  puppetlabs/apt (>= 0)
+  puppetlabs/stdlib (>= 0)
+
